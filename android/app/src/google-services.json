@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330553740080",
+    "project_id": "bite-29737",
+    "storage_bucket": "bite-29737.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330553740080:android:efd4b933a3f140de7816f5",
+        "android_client_info": {
+          "package_name": "com.example.bite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330553740080-8bc0ip0bo95kpeemp73d6jlui9eson1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZElV9QPB-EbG5y0pjfLtj-fZb3pyNmm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330553740080-8bc0ip0bo95kpeemp73d6jlui9eson1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

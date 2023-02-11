@@ -28,6 +28,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  firebase_auth: ^4.2.6
+  firebase_core: ^2.5.0
   flutter:
     sdk: flutter
 
@@ -60,7 +62,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-      - assets/background.jfif
+    - assets/background.jfif
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
