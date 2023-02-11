@@ -5,5 +5,4 @@ Bite is a mobile app that connects people with surplus food from local restauran
 
 Modelling the app:
 
-
 ![Blank diagram](https://user-images.githubusercontent.com/114599782/218264142-c7d7720a-fa29-45a3-89b6-fd096354f38a.png)
