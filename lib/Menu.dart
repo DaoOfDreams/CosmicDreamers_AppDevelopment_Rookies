@@ -10,6 +10,34 @@ class Menu extends StatelessWidget {
           title: const Text('Home'),
           backgroundColor: Colors.black,
         ),
+        body: SizedBox(
+          height: double.infinity,
+          child: Column(
+            children: [
+              const SizedBox(
+                height: 500,
+              ),
+              Center(
+                  child: Row(
+                children: [
+                  const SizedBox(
+                    width: 300,
+                  ),
+                  ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      shape: const CircleBorder(),
+                      padding: const EdgeInsets.all(20),
+                      backgroundColor: Colors.black, // <-- Button color
+                      foregroundColor: Colors.red, // <-- Splash color
+                    ),
+                    child: const Icon(Icons.feedback, color: Colors.white),
+                  ),
+                ],
+              )),
+            ],
+          ),
+        ),
         drawer: Drawer(
           child: ListView(
             children: [
@@ -25,11 +53,11 @@ class Menu extends StatelessWidget {
               ),
               ListTile(
                 title: const Text('Register as provider'),
-                onTap: (){},
+                onTap: () {},
               ),
               ListTile(
                 title: const Text('Logout'),
-                onTap: (){},
+                onTap: () {},
               ),
             ],
           ),
