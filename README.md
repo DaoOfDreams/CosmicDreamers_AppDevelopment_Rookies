@@ -1,16 +1,3 @@
 # bite
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Bite is a mobile app that connects people with surplus food from local restaurants and supermarkets. Our goal is to reduce food waste and provide food to those in need by connecting people with surplus food in their community. With Bite, users can easily find and claim surplus food that would otherwise go to waste, and help make a positive impact in their community. Join the fight against food waste and download Bite today!
