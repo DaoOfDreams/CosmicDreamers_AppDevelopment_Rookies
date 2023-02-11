@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bite/CustomerLogin.dart';
+import 'package:bite/Login.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
                     Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (BuildContext context) {
-                          return const LoginScreen();
+                          return const LoginUI();
                         },
                       ),
                     );

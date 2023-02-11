@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'loginc.dart';
+import 'package:bite/Login.dart';
 
 class RegistrationUI extends StatelessWidget {
   const RegistrationUI({Key? key}) : super(key: key);
@@ -98,7 +98,7 @@ class Registration extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(100),
                   gradient:
-                      const LinearGradient(colors: [Colors.blue, Colors.green]),
+                  const LinearGradient(colors: [Colors.blue, Colors.green]),
                 ),
                 child: MaterialButton(
                   onPressed: () {},
