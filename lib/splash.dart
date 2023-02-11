@@ -35,7 +35,7 @@ class _SplashState extends State<Splash> {
               width: double.infinity,
               decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage("assets/splash.jpg"),
+                    image: AssetImage("assets/images/splash.jpg"),
                     fit: BoxFit.fill,
                   )
               ),
@@ -53,4 +53,3 @@ class _SplashState extends State<Splash> {
             )));
   }
 }
-
