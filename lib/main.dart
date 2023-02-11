@@ -1,21 +1,24 @@
 import 'package:flutter/material.dart';
-import 'MyHomePage.dart';
+
+import 'home.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Bite',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Home(),
     );
   }
 }
