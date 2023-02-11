@@ -31,25 +31,33 @@ class _SplashState extends State<Splash> {
 
         body: Center(
 
-            child: Container(
-              width: double.infinity,
-              decoration: const BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage("assets/images/splash.jpg"),
-                    fit: BoxFit.fill,
-                  )
+          child:Column(
+            children: [
+              const SizedBox(height: 200),
+              Container(
+                  width: 180,
+                  height: 180,
+                  decoration: const BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/splash.png"),
+                      )
+                  ),
+
+
               ),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
-                    Text('Bite',
-                        style: TextStyle(
-                          color: Colors.green,
-                          fontSize: 20,
-                        )),
-                  ],
-                )
-            )));
+              const SizedBox(height: 100),
+              Column(
+
+                children: const [
+                  Text('Bite',
+                      style: TextStyle(
+                        color: Colors.green,
+                        fontSize: 20,
+                      )),
+                ],
+              )
+            ],
+          ),
+    ),);
   }
 }
